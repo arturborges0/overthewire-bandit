@@ -4,11 +4,11 @@
 
 # 🎯 OverTheWire - Bandit 🎯
 
-> *"Enumeration is not a step, it's a way of life."*
+> *"Every flag captured is a lesson learned."*
 
 ---
 
-🕶️ **Este repositório é dedicado à resolução de todos os níveis do CTF Bandit da plataforma [OverTheWire](https://overthewire.org/wargames/).**  
+**Este repositório é dedicado à resolução de todos os níveis do CTF Bandit da plataforma [OverTheWire](https://overthewire.org/wargames/).**  
 
 Aqui você encontrará **relatórios detalhados**, **comandos utilizados** e **análises técnicas** de cada nível que eu avancei.  
 
