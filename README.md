@@ -33,5 +33,5 @@ Este conteúdo é produzido apenas para **fins educacionais e éticos**, com o o
 ---
 
 <p align="center">
-  <img src="https://i.imgur.com/Zc7XxJK.png" alt="OverTheWire" width="300">
+  
 </p>
