@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Bandit Level 0 - OverTheWire</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #c2b280;
+    }
+    p {
+      margin-bottom: 16px;
+      font-size: 16px;
+      text-align: justify;
+    }
+    code {
+      background-color: #1e1e1e;
+      color: #c2b280;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    .command {
+      display: block;
+      background-color: #1e1e1e;
+      color: #c2b280;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 15px 0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+  </style>
+</head>
+<body>
+
+<h1>Bandit Level 1 - OverTheWire</h1>
+
+<p>Vamos resolver agora o Level 1 que vai dar acesso ao Level 2!</p>
+
+<p>O Level 1 do Bandit tem o seguinte objetivo:</p>
+
+<p><em>"A senha para o próximo nível está armazenada em um arquivo chamado -, localizado no diretório home."</em></p>
+
+  <h2>Let's go capture the flag! 👻</h2>
+
+  <p>Em seu terminal já logado no bandit1, digite o comando ls, você verá o seguinte:</p>
+
+   <img src="https://cdn-images-1.medium.com/max/800/1*IBh4cs-7OXbcKG2x8WiYNA.png" alt="Bandit Level 1">
+
+  <p>A resposta que temos é apenas um sinal de hífen ( - ), <strong>o que isso significa?</strong>Isso nos diz que o nome
+  do arquivo que precisamos ler é simplesmente -. Mas agora, como lemos? No nível anterior, nós lemos o arquivo readme com o comando
+  <strong>cat readme.</strong> Tente ler o arquivo - com cat e vamos ver o que acontece.</p>
+
+  <p>E aí, cansou de esperar? xD
+  O seu terminal também, ele está esperando novas ordens e isso acontece porque o - representa a entrada padrão (stdin) para muitos comandos.
+  O comando cat acha que você quer digitar um conteúdo manualmente e fica esperando...</p>
+
+  <p>Para ler esse arquivo você precisa dizer explicitamente para o sistema: <strong>"Esse é o nome de um arquivo no diretório atual, não um argumento especial".</strong>
+  E você faz isso digitando <strong>cat ./-</strong></p>
+
+  <img src="https://cdn-images-1.medium.com/max/800/1*hoOh_ApmHI8SEy5YTrW-mw.png" alt=Banditt Level 1">
+
+  <p>Com isso você tem a sua porta de entrada para o Level 2!</p>
+
+  <p><strong>🚩Flag encontrada: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx</strong></p>
+
+  <p>Nos vemos no nível 3</p>
+
+
+
+  
