@@ -28,7 +28,7 @@ Aqui você encontrará **relatórios detalhados**, **comandos utilizados** e **a
 ---
 
 ⚠️ **Importante:**  
-Este conteúdo é produzido apenas para **fins educacionais e éticos**, com o objetivo de aprimorar habilidades em segurança da informação.
+Este conteúdo é produzido apenas para **fins educacionais e éticos**, com o objetivo de aprimorar habilidades em sistemas Linux. 🐧
 
 ---
 
